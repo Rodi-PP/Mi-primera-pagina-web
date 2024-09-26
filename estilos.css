@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(182, 182, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 100%;
+    width: 1100px auto;
+    margin: 0px auto;
+    border: 1px solid rgb(182, 182, 229);
+
+}
+
+header{
+    background: rgb(220, 214, 238);
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 70px;
+    color:rgb(120, 2, 131)
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float:left;
+    width: 100%;
+    min-height: 100px;
+    background: rgb(113, 107, 168);
+}
+
+aside{
+    float:right;
+    width: 25%;
+    min-height: 400px;
+    text-align: center;
+    background: rgb(138, 206, 226);
+}
+
+footer{
+    background:rgb(157, 138, 214);
+    color: white;
+    text-align: center;
+    height: 200px;
+    line-height: 50px;
+
+}
+
+ 
